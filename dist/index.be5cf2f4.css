@@ -1,18 +1,15 @@
-@import url(https://fonts.googleapis.com/css2?family=Merriweather&family=Poor+Story&display=swap);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
-
+@import "https://fonts.googleapis.com/css2?family=Merriweather&family=Poor+Story&display=swap";
+@import "https://fonts.googleapis.com/css?family=Open+Sans";
 body{
     background: #f2f2f2;
     font-family: 'Open Sans', sans-serif;
 }
-
 h1 {
     font-family: 'Poor Story', cursive;
     font-size: 4vw;
     padding-top: 10px;
     text-align: center;
 }
-
 img {
     display: block;
     margin-left: auto;
@@ -20,7 +17,6 @@ img {
     padding-bottom: 50px;
     width: 30%;
 }
-
 .search {
     width: 30%;
     position: relative;
@@ -30,7 +26,6 @@ img {
     transform: translate(-50%, -50%);
     padding-top: 50px;
 }
-
 .search-term {
     width: 100%;
     border: 3px solid #00B4CC;
@@ -41,11 +36,9 @@ img {
     outline: none;
     color: #9DBFAF;
 }
-
 .search-term:focus{
     color: #00B4CC;
 }
-
 .search-button {
     width: 40px;
     height: 36px;
@@ -56,9 +49,8 @@ img {
     border-radius: 0 5px 5px 0;
     cursor: pointer;
     font-size: 20px;
-    background-image: url("assets/magnifying-glass.png");
+    background-image: url("magnifying-glass.aa8ea80a.png");
 }
-
 #search-result {
     display: flex;
     justify-content: center;
@@ -73,28 +65,23 @@ img {
     padding: 24px;
     margin: 72px 0;
 }
-
 .search-result-box h2 {
     font-size: 36px;
     padding: 0 0 12px 0;
 }
-
 .search-result-box p {
     padding: 8px 0;
 }
-
 .flag {
     width: 60px;
     margin-right: 16px;
     margin-top: 35px;
 }
-
 .flag-title-container {
     border-bottom: 1px solid #ededed;
     display: flex;
     margin: 0 0 12px 0;
 }
-
 .error-message {
     display: flex;
     justify-content: center;
@@ -102,3 +89,5 @@ img {
     border-radius: 8px;
 }
 
+
+/*# sourceMappingURL=index.be5cf2f4.css.map */
