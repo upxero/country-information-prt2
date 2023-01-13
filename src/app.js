@@ -19,7 +19,7 @@ async function fetchCountryDetails(name) {
 
     try {
         const result = await axios.get(`https://restcountries.com/v2/name/${name}`);
-        const country = result.data[0];
+        const { name, capital, subregion, population, currencies } = result.data[0];
         console.log(country);
 
         countryInfoBox.innerHTML = `
